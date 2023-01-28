@@ -1,5 +1,7 @@
-﻿string[] array1 = new string[6] {"hello", "2", "682", "world", ":-)", "Russia"};
+﻿Console.Clear();
+string[] array1 = new string[6] {"hello", "2", "682", "world", ":-)", "Russia"};
 string[] array2 = new string[array1.Length];
+
 void SecondArrayWithIF(string[] array1, string[] array2)
 {
     int count = 0;
